@@ -1,14 +1,4 @@
-'''
-(task 1) BinNode interface를 구현하세요.
-(task 2) BinNode를 상속하여 INode를 구현하세요. INode는 값, 왼쪽 자식 포인터, 오른쪽 자식 포인터를 가집니다.
-(task 3) 구현한 BinNode와 INode를 이용하여 본인이 좋아하는 10자 이상의 영어 단어 혹은 구의 글자들로 tree를 구성하세요. tree의 모양은 너무 단조롭지만 않으면 아무렇게나 구성해도 좋습니다. 단, root에서부터 inorder traversal 을 수행하였을 때, 문구가 올바르게 출력되도록 구성하세요.
-(task 4) preorder, inorder, postorder traversal을 수행하는 함수를 구현하고, 함수를 수행한 결과를 확인하세요.
-(task 5) BinNode를 상속하여 LNode를 구현하세요. LNode는 양쪽 자식이 모두 없는 Leaf node만을 위한 구현입니다.
-(task 6) task 3에서 구현한 tree에서 leaf node를 기존 INode에서 LNode로 교체하고, task 5를 수행하여 기존 결과와 동일함을 확인하세요.
 
-위 task를 모두 수행하고, 각 task의 코드와 결과를 정리하여 "result.pdf" 파일로 제출하세요.
-또한, 구현한 모든 코드를 압축하여 "result.zip" 파일로 제출하세요.
-'''
 
 class BinNode():
     def __init__(self,data):
